@@ -153,6 +153,13 @@ header {
         }
     }
 }
+header.sticky{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0; left: 0;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
+}
 /* ----------HEADER END ----------*/
 
 /* ----------FOOTER START ----------*/
