@@ -167,6 +167,7 @@ header {
                 font-size: 32px;
                 font-weight: 900;
                 color: #ffc220;
+                cursor: default;
             }
         }
 
