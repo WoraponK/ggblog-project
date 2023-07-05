@@ -42,11 +42,12 @@ a {
 
 /* ----------HEADER START ----------*/
 header {
-    background: #0071ce;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 16px 1rem;
+    position: absolute;
+    width: 100%;
 
     & h1 {
         font-weight: 900;
@@ -154,10 +155,12 @@ header {
     }
 }
 header.sticky{
+    background: #0071ce;
     position: fixed;
-    width: 100%;
     z-index: 1000;
+    width: 100%;
     top: 0; left: 0;
+    transition: 0.25s;
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
 }
 /* ----------HEADER END ----------*/
