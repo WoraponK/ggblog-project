@@ -2,3 +2,8 @@
 #0f0f0f, #e0e0ce, #0071ce, #ffc220, #041e42 
 */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
