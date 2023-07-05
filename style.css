@@ -13,17 +13,28 @@
 }
 
 
-
+/* ----------HEADER START ----------*/
 header {
-    background: #158d43;
+    background: #0f0f0f;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 16px 1rem;
     color: #fff;
 
+    & a {
+        text-decoration: none;
+    }
+
     & h1 {
         cursor: pointer;
+        transition: 0.2s all;
+        &:hover {
+            transform: scale(0.9);
+        }
+        & a {
+            color: #fff;
+        }
     }
 
     .navlink {
@@ -34,7 +45,6 @@ header {
                 font-weight: bold;
                 & a {
                     color: #fff;
-                    text-decoration: none;
                     &:hover {
                         color: #ffc220;
                     }
@@ -133,6 +143,13 @@ header {
         }
     }
 }
+/* ----------HEADER END ----------*/
+
+
+
+/* ----------FOOTER START ----------*/
+
+/* ----------FOOTER END ----------*/
 
 @media (max-width: 768px) {
     header {
