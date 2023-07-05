@@ -9,6 +9,6 @@ I get inspired from GamingDose and ChatchawanDew(from GitHub).
 - home page
 - news page
 - blog page
-- tabs page
 - games page
 - contact us page
+- support page
