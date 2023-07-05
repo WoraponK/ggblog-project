@@ -48,6 +48,7 @@ header {
     padding: 16px 1rem;
     position: absolute;
     width: 100%;
+    background: linear-gradient(180deg, rgba(0,113,206,0.31556372549019607) 0%, rgba(47,7,7,0) 50%);
 
     & h1 {
         font-weight: 900;
