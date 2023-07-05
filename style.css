@@ -251,6 +251,13 @@ header {
                 margin-bottom: 1rem;
             }
         }
+
+        .privacy-ctn {
+            flex-direction: column;
+            & p {
+                margin-top: 0.5rem;
+            }
+        }
     }
 }
 
