@@ -50,6 +50,10 @@ header {
     width: 100%;
     background: linear-gradient(180deg, rgba(0,113,206,0.31556372549019607) 0%, rgba(47,7,7,0) 50%);
 
+    .menu-expand {
+        display: none
+    }
+
     & h1 {
         font-weight: 900;
         cursor: pointer;
@@ -275,13 +279,13 @@ header.sticky{
 }
 
 @media (max-width: 1199px) {
-
-
+    
     .menu-expand {
-        position: fixed;
-        
+        display: none;
+        position: fixed;   
     }
     .menu-expand.active {
+        display: block;
         top: 0;
         right: 0;
         background: #0071ce;
@@ -290,9 +294,11 @@ header.sticky{
         z-index: 51;
 
         padding-top: 3rem;
+        padding-left: 2rem;
+        padding-right: 0.75rem;
+        box-shadow: 1px -10px -10px rgba(0, 0, 0, 0.3);
 
-        .menuEx-top {
-            padding-right: 0.75rem;
+        .menuEx-close {
             display: flex;
             justify-content: flex-end;
         }
@@ -306,6 +312,88 @@ header.sticky{
             & ion-icon {
                 font-size: 42px;
                 color: #fff;
+            }
+        }
+
+        .menuEx-title {            
+            & h2 {
+                font-size: 32px;
+                font-weight: 900;
+                color: #ffc220;
+            }
+        }
+
+        .menuEx-middle {
+            padding-right: 1.5rem;
+
+            & form {
+                display: flex;
+                height: 36px;
+                background: #fff;
+                margin: 3rem 0;
+
+                & input[type="search"] {
+                    height: 100%;
+                    width: calc(100% - 36px);
+                    border: none;
+                    padding-left: 0.5rem;
+                    outline: none;
+                }
+
+                & button {
+                    width: 36px;
+                    height: 36px;
+                    background: #fff;
+                    border: none;
+
+                    & ion-icon {
+                        font-size: 24px;
+                        transform: translateY(1px);
+                    }
+                }
+            }
+
+            & ul {
+                & li {
+                    margin-bottom: 1rem;
+                        & a {
+                        font-size: 28px;
+                        font-weight: 700;
+                        color: #fff;
+
+                        &:hover {
+                            color: #ffc220;
+                        }
+                    }
+                }
+            }
+        }
+
+        .menuEx-footer {
+            display: flex;
+            flex-direction: column;
+            margin-top: 6rem;
+
+            & a {
+                color: #d4d4d4;
+                font-size: 18px;
+                margin-bottom: 1rem;
+                &:hover {
+                    color: #fff;
+                }
+            }
+
+            .social {
+                justify-content: left;
+                margin-bottom: 0;
+
+                & li {
+                    margin-left: 0;
+                    margin-right: 0.75rem;
+                    & ion-icon {
+                        font-size: 32px;
+                    }
+                }
             }
         }
     }
