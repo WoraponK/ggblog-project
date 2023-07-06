@@ -425,3 +425,9 @@ header.sticky{
         margin-right: 0px;
     }
 }
+
+@media (max-width: 550px) {
+    .menu-expand.active {
+        width: 100%;
+    }
+}
