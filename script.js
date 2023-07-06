@@ -4,7 +4,7 @@ window.addEventListener("scroll", () => {
 })
 
 
-
+// --------------------- MENUEXPAND START ---------------------
 let menuBtn = document.querySelector(".menu-btn");
 let closeBtn = document.querySelector(".close-btn");
 let menuExpand = document.querySelector(".menu-expand");
@@ -15,3 +15,4 @@ menuBtn.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
     menuExpand.classList.remove("active");
 })
+// --------------------- MENUEXPAND END ---------------------
