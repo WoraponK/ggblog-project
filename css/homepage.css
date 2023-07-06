@@ -1,5 +1,57 @@
 .homepage {
     min-height: 100vh;
     background: #0f0f0f;
-    padding-top: 101px;
+
+    .homepage-tnail {
+        padding: 10rem 4rem;
+        background: url('https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?cs=srgb&dl=pexels-soumil-kumar-735911.jpg&fm=jpg');
+        background-size: cover;
+        background-position: top;
+
+        .hp-tnail-center {
+            display: flex;
+            align-items: center;
+
+            & img {
+                height: 278px
+            }
+
+            .hp-tnail-c-text {
+                margin-left: 1rem;
+
+                & p {
+                    color: #fff;
+                    font-size: 58px;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+
+    .hp-tnail-center img {
+        height: 216px!important;
+    }
+    .hp-tnail-c-text p {
+        font-size: 42px!important;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .hp-tnail-center {
+        display: flex;
+        flex-direction: column;
+        align-items: start!important;
+
+        & img {
+            height: 186px!important;
+        }
+
+        .hp-tnail-c-text p {    
+            font-size: 24px!important;
+        }
+    }
 }
