@@ -241,6 +241,10 @@ header.sticky{
 
 @media (max-width: 768px) {
     header {
+        .menu-expand.active {
+            padding-top: 1rem;
+        }
+
         border-bottom: 1px solid #ffffff50;
 
         .active-group {
@@ -271,6 +275,42 @@ header.sticky{
 }
 
 @media (max-width: 1199px) {
+
+
+    .menu-expand {
+        position: fixed;
+        
+    }
+    .menu-expand.active {
+        top: 0;
+        right: 0;
+        background: #0071ce;
+        height: 100%;
+        width: 360px;
+        z-index: 51;
+
+        padding-top: 3rem;
+
+        .menuEx-top {
+            padding-right: 0.75rem;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .close-btn {
+            width: fit-content;
+            &:hover {
+                cursor: pointer;
+            }
+
+            & ion-icon {
+                font-size: 42px;
+                color: #fff;
+            }
+        }
+    }
+
+
     .social {
         margin-bottom: 0.5rem;
     }
