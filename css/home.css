@@ -43,6 +43,14 @@
     }
 }
 
+@media (max-width: 550px) {
+    .popular-blog {
+        padding-top: 2rem;
+        padding-left: 2rem;
+    }
+    
+}
+
 @media (max-width: 1199px) {
 
     .hp-tnail-center img {
