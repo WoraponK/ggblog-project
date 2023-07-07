@@ -359,7 +359,7 @@ header.sticky{
         padding-top: 3rem;
         padding-left: 2rem;
         padding-right: 0.75rem;
-        box-shadow: 1px -10px -10px rgba(0, 0, 0, 0.3);
+        box-shadow: 1px 0px 50px rgb(0, 0, 0, 0.5);
 
         .menuEx-close {
             display: flex;
