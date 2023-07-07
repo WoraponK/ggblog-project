@@ -1,6 +1,4 @@
 .homepage {
-    min-height: 100vh;
-    background: #0f0f0f;
 
     .homepage-tnail {
         padding: 10rem 4rem;
@@ -26,6 +24,22 @@
                 }
             }
         }
+    }
+}
+
+.popular-blog {
+    padding: 4rem 6rem;
+    
+    & h2 {
+        font-weight: 900;
+        color: #0071ce;
+    }
+    
+    .popular-blog-show {
+        padding: 1rem 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(267px, 1fr));
+        gap: 1rem;
     }
 }
 
