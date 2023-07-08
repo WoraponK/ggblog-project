@@ -45,7 +45,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 1rem;
+    padding: 16px 5rem;
     position: absolute;
     width: 100%;
     background: linear-gradient(180deg, #00000050 0%, rgba(47,7,7,0) 50%);
@@ -573,6 +573,10 @@ header.sticky{
 }
 
 @media (max-width: 1199px) {
+
+    header {
+        padding: 16px 1rem;
+    }
 
     .wrapper {
         padding-top: 3rem;
