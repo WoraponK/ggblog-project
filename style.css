@@ -267,6 +267,7 @@ header.sticky{
         .blog-sm-img {
             height: 155px;
             width: 276px;
+            border-radius: 8px;
         }
 
         .blog-sm-middle {
@@ -342,6 +343,7 @@ header.sticky{
             width: 200px;
             height: 113px;
             overflow: hidden;
+            border-radius: 8px;
 
             & img {
                 width: 200px;
