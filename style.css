@@ -570,6 +570,10 @@ header.sticky{
                 .vdos-ctn-image ion-icon {
                     transform: scale(0.9);
                 }
+
+                .vdos-ctn-title p{
+                    color: #ffc220;
+                }
             }
 
             .vdos-ctn-image {
