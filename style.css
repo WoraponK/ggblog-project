@@ -347,6 +347,7 @@ header.sticky{
                 width: 200px;
                 height: 113px;
                 transition: 0.25s all;
+                object-fit: cover;
 
                 &:hover {
                     transform: scale(1.1);
