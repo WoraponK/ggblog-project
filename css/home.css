@@ -68,6 +68,9 @@
 
 @media (max-width: 1199px) {
 
+    .homepage-tnail {
+        padding-bottom: 7rem!important;
+    }
     .hp-tnail-center img {
         height: 216px!important;
     }
@@ -92,6 +95,10 @@
                 padding-left: 0;
             }
         }
+    }
+
+    .homepage-tnail {
+        padding-bottom: 5rem!important;
     }
 
     .hp-tnail-center {
