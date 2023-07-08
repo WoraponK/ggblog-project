@@ -359,6 +359,23 @@ header.sticky{
                 overflow-x: hidden;
                 overflow-y: hidden;
             }
+
+            .news-sm-t-bottom {
+                display: flex;
+                
+                .news-sm-t-bt-creator {
+                    width: 30%;
+                    font-size: 12px;
+                    color: #0071ce;
+                }
+
+                .news-sm-t-bt-time {
+                    width: 70%;
+                    color: #00000090;
+                    font-size: 12px;
+                    text-transform: uppercase;
+                }
+            }
         }
     }
     /* ---------- news end ----------*/
@@ -428,6 +445,13 @@ header.sticky{
 
         .news-sm-t-des {
             display: none;
+        }
+        .news-sm-t-bottom {
+            flex-direction: column;
+
+            .news-sm-t-bt-time {
+                margin-top: 0.25rem;
+            }
         }
     }
     
