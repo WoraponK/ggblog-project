@@ -431,7 +431,12 @@ header.sticky{
 
         .news-sm-text {
             margin-left: 0;
+            margin-top: 1rem;
             width: 100%;
+            
+            .news-sm-t-title {
+                height: fit-content!important;
+            }
         }
     }
 
