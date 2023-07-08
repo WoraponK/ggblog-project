@@ -382,6 +382,27 @@ header.sticky{
 
 
 
+    /* ---------- button start ----------*/
+    .readmore-block-btn {
+        width: 100%;
+        padding: 0.5rem 0;
+        margin-top: 2rem;
+        border: none;
+        background:#0071ce;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 900;
+
+        &:hover {
+            cursor: pointer;
+            background:#005092;
+
+        }
+    }
+    /* ---------- button end ----------*/
+
+
+
 
 /* ---------- OBJECTS END----------*/
 
