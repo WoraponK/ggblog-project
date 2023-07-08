@@ -390,6 +390,7 @@ header.sticky{
     .wrapper {
         padding-top: 3rem;
         padding-left: 3rem;
+        padding-right: 3rem;
     }
 
     .news-thumb-sm {
@@ -609,5 +610,6 @@ header.sticky{
     .wrapper {
         padding-top: 2rem;
         padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
