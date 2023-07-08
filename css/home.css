@@ -66,6 +66,41 @@
     }
 }
 
+.videos {
+    background: #0f0f0f;
+    border-bottom: 1px solid #ffffff50;
+
+    .vdos-title {
+        display: flex;
+        justify-content: space-between;
+
+        & a {
+            color: #0071ce;
+            &:hover {
+                color: #008cff;
+            }
+        }
+    }
+    
+    .vdos-show {
+        overflow-x: scroll;
+    }
+
+    .vdos-show-in {
+        width: fit-content;
+        padding-top: 2rem;
+        padding-bottom: 0.5rem;
+        gap: 1rem;
+        display: flex;
+    }
+
+    .wrapper {
+        .wrapper {
+            padding-bottom: 0;
+        }
+    }
+}
+
 @media (max-width: 1199px) {
 
     .homepage-tnail {
