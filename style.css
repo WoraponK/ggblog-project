@@ -262,6 +262,12 @@ header.sticky{
         &:hover {
             cursor: pointer;
             transform: scale(1.025);
+
+            .blog-sm-title {
+                & h3 {
+                    color: #0071ce;
+                }
+            }
         }
 
         .blog-sm-img {
@@ -275,6 +281,7 @@ header.sticky{
             height: 92px;
 
             .blog-sm-title {
+                margin-top: 0.5rem;
                 width: 80%;
                 overflow-wrap: break-word;
 
@@ -334,7 +341,7 @@ header.sticky{
         padding: 1rem 0;
         border-bottom: 1px dashed #00000050 ;
         align-items: center;
-        
+
         &:hover {
             cursor: pointer;
             .news-sm-img {
