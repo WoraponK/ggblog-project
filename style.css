@@ -248,7 +248,13 @@ header.sticky{
 
 
 /* ---------- OBJECTS START----------*/
+    .wrapper {
+        padding: 4rem 6rem;
+    }
 
+
+
+    /* ---------- blog ----------*/
     .blog-thumb-sm {
         width: 276px;
         transition: 0.25s all;
@@ -302,20 +308,82 @@ header.sticky{
         }
 
     }
+    /* ---------- blog end ----------*/
 
+
+
+    /* ---------- texts ----------*/
     .title-md {
         font-weight: 900;
         color: #0071ce;
+        text-transform: uppercase;
     }
 
-    .wrapper {
-        padding: 4rem 6rem;
+    .title-t-sm {
+        font-weight: 700;
+        font-size: 20px;
+
+        &:hover {
+            cursor: pointer;
+            color: #0071ce;
+        }
     }
+    /* ---------- texts end----------*/
+
+
+
+    /* ---------- news ----------*/
+    .news-thumb-sm {
+        display: flex;
+        padding: 1rem 0;
+        border-bottom: 1px dashed #00000050 ;
+
+        & img {
+            width: 200px;
+            height: 113px;
+        }
+
+        .news-sm-text {
+            margin-left: 1rem;
+            width: calc(100% - (1rem + 200px));
+            
+            .news-sm-t-title {
+                margin-bottom: 0.5rem;
+                height: 25px;
+                overflow-x: hidden;
+                overflow-y: hidden;
+            }
+
+            .news-sm-t-des {
+                height: 90px;
+                overflow-x: hidden;
+                overflow-y: hidden;
+            }
+        }
+    }
+    /* ---------- news end ----------*/
+
+
+
 
 /* ---------- OBJECTS END----------*/
 
 
 @media (max-width: 768px) {
+    .wrapper {
+        padding-top: 3rem;
+        padding-left: 3rem;
+    }
+
+    .news-thumb-sm {
+        flex-direction: column;
+
+        .news-sm-text {
+            margin-left: 0;
+            width: 100%;
+        }
+    }
+
     header {
         .menu-expand.active {
             padding-top: 1rem;
@@ -351,6 +419,17 @@ header.sticky{
 }
 
 @media (max-width: 1199px) {
+
+
+    .news-sm-text {
+        .news-sm-t-title {
+            height: 50px!important;
+        }
+
+        .news-sm-t-des {
+            display: none;
+        }
+    }
     
     .menu-expand {
         display: none;
