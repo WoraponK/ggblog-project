@@ -338,9 +338,20 @@ header.sticky{
         padding: 1rem 0;
         border-bottom: 1px dashed #00000050 ;
 
-        & img {
+        .news-sm-img {
             width: 200px;
             height: 113px;
+            overflow: hidden;
+
+            & img {
+                width: 200px;
+                height: 113px;
+                transition: 0.25s all;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
         }
 
         .news-sm-text {
