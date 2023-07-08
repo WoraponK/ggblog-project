@@ -618,6 +618,46 @@ header.sticky{
 
 
 
+    /* ---------- BackToTop start ---------- */
+        .backtotop {
+            background: #0f0f0f;
+
+            .backtotop-in {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 1rem 0;
+
+                .backtotop-in-obj {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    color: #fff;
+                    text-transform: uppercase;
+                    transition: 0.25s all;
+                    &:hover {
+                        cursor: pointer;
+                        color: #ffc220;
+
+                        & ion-icon {
+                            transform: translateY(-5px);
+                        }
+                    }
+
+                    & ion-icon {
+                        font-size: 32px;
+                        transition: 0.25s all;
+                        color:#ffc220;
+                    }
+
+                }
+            }
+        }
+    /* ---------- BackToTop end ---------- */
+
+
+
 /* ---------- OBJECTS END----------*/
 
 

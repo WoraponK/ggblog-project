@@ -16,3 +16,12 @@ closeBtn.addEventListener("click", () => {
     menuExpand.classList.remove("active");
 })
 // --------------------- MENUEXPAND END ---------------------
+
+
+// --------------------- BACKTOTOP START ---------------------
+let toTopBtn = document.querySelector(".backtotop-in-obj");
+toTopBtn.addEventListener("click", () => {
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+})
+// --------------------- BACKTOTOP END ---------------------
