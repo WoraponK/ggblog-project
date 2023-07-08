@@ -265,7 +265,7 @@ header.sticky{
 
             .blog-sm-title {
                 & h3 {
-                    color: #0071ce;
+                    color: #ffc220;
                 }
             }
 
@@ -295,6 +295,7 @@ header.sticky{
             height: 92px;
 
             .blog-sm-title {
+                color: #fff;
                 margin-top: 0.5rem;
                 width: 80%;
                 overflow-wrap: break-word;
@@ -326,6 +327,7 @@ header.sticky{
             align-items: end;
             
             & span {
+                color: #fff;
                 font-size: 16px;
             }
         }
@@ -338,7 +340,7 @@ header.sticky{
     /* ---------- texts ----------*/
     .title-md {
         font-weight: 900;
-        color: #0071ce;
+        color: #008cff;
         text-transform: uppercase;
     }
 
@@ -354,7 +356,7 @@ header.sticky{
     .news-thumb-sm {
         display: flex;
         padding: 1rem 0;
-        border-bottom: 1px dashed #00000050 ;
+        border-bottom: 1px dashed #ffffff50 ;
         align-items: center;
 
         &:hover {
@@ -365,7 +367,7 @@ header.sticky{
                 }
             }
             .title-t-sm {
-                color: #0071ce;
+                color: #ffc220;
             }
         }
 
@@ -392,12 +394,14 @@ header.sticky{
                 height: 25px;
                 overflow-x: hidden;
                 overflow-y: hidden;
+                color: #fff;
             }
 
             .news-sm-t-des {
                 height: 90px;
                 overflow-x: hidden;
                 overflow-y: hidden;
+                color: #fff;
             }
 
             .news-sm-t-bottom {
@@ -411,7 +415,7 @@ header.sticky{
 
                 .news-sm-t-bt-time {
                     width: 70%;
-                    color: #00000090;
+                    color: #ffffff90;
                     font-size: 12px;
                     text-transform: uppercase;
                 }

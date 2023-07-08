@@ -29,7 +29,8 @@
 
 
 .popular-blog {
-    border-bottom: 1px solid #00000050;
+    border-bottom: 1px solid #ffffff50;
+    background: #0f0f0f;
     
     .popular-blog-show {
         padding: 1rem 0;
@@ -41,14 +42,15 @@
 }
 
 .news-reviews {
-    border-bottom: 1px solid #00000050;
+    border-bottom: 1px solid #ffffff50;
+    background: #0f0f0f;
 
     .wrapper {
         display: grid;
         grid-template-columns: 70% 30%;
 
         .news-show {
-            border-right: 1px solid #00000050;
+            border-right: 1px solid #ffffff50;
             padding-right: 1rem;
 
             padding-bottom: 2rem;
