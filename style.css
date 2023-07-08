@@ -323,11 +323,6 @@ header.sticky{
     .title-t-sm {
         font-weight: 700;
         font-size: 20px;
-
-        &:hover {
-            cursor: pointer;
-            color: #0071ce;
-        }
     }
     /* ---------- texts end----------*/
 
@@ -338,6 +333,19 @@ header.sticky{
         display: flex;
         padding: 1rem 0;
         border-bottom: 1px dashed #00000050 ;
+        align-items: center;
+        
+        &:hover {
+            cursor: pointer;
+            .news-sm-img {
+                & img {
+                    transform: scale(1.1);
+                }
+            }
+            .title-t-sm {
+                color: #0071ce;
+            }
+        }
 
         .news-sm-img {
             width: 200px;
@@ -350,10 +358,6 @@ header.sticky{
                 height: 113px;
                 transition: 0.25s all;
                 object-fit: cover;
-
-                &:hover {
-                    transform: scale(1.1);
-                }
             }
         }
 
