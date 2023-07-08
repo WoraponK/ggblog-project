@@ -261,11 +261,17 @@ header.sticky{
         
         &:hover {
             cursor: pointer;
-            transform: scale(1.025);
+            transform: scale(1.05);
 
             .blog-sm-title {
                 & h3 {
                     color: #0071ce;
+                }
+            }
+
+            .blog-sm-img {
+                & img {
+                    transform: scale(1.1);
                 }
             }
         }
@@ -274,6 +280,14 @@ header.sticky{
             height: 155px;
             width: 276px;
             border-radius: 8px;
+            overflow: hidden;
+
+            & img {
+                width: 100%;
+                height: 100%;
+            transition: 0.25s all;
+
+            }
         }
 
         .blog-sm-middle {
@@ -284,6 +298,7 @@ header.sticky{
                 margin-top: 0.5rem;
                 width: 80%;
                 overflow-wrap: break-word;
+                transition: 0.25s all;
 
                 & h3 {
                     font-size: 18px;
@@ -361,8 +376,8 @@ header.sticky{
             border-radius: 8px;
 
             & img {
-                width: 200px;
-                height: 113px;
+                width: 100%;
+                height: 100%;
                 transition: 0.25s all;
                 object-fit: cover;
             }
@@ -428,19 +443,85 @@ header.sticky{
 
 
 
+    /* ---------- block start ---------- */
+    .b-tn-sm {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 1rem;
+        
+        &:hover {
+            cursor: pointer;
+            
+            .b-tn-sm-image img{
+                transform: scale(1.1);
+            }
+            .b-tn-sm-image ion-icon {
+                transform: scale(0.8);
+            }
+
+            .b-tn-sm-text {
+                color:#ffc220;
+            }
+        }
+
+        .b-tn-sm-image {
+            width: 100%;
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+
+            & img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: 0.25s all;
+            }
+            
+            & ion-icon {
+                transition: 0.25s all;
+                position: absolute;
+                font-size: 48px;
+                color: #fff;
+                z-index: 51;
+
+                filter: drop-shadow(5px 5px 3px #00000080);
+            }
+        }
+
+        .b-tn-sm-text {
+            padding-left: 0.5rem;
+            width: 100%;
+            height: 20%;
+            display: flex;
+            align-items: center;
+            background: #0071ce;
+            color: #fff;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    }
+
+    /* ---------- block end ---------- */
+
+
 
 /* ---------- OBJECTS END----------*/
 
 
 @media (max-width: 768px) {
-    .wrapper {
-        padding-top: 3rem;
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
 
     .news-thumb-sm {
         flex-direction: column;
+
+        .news-sm-img {
+            width: 100%;
+        }
 
         .news-sm-text {
             margin-left: 0;
@@ -488,6 +569,23 @@ header.sticky{
 }
 
 @media (max-width: 1199px) {
+
+    .wrapper {
+        padding-top: 3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+
+    .b-tn-sm {
+        height: 150px;
+        .b-tn-sm-image {
+            height: 75%;
+        }
+        .b-tn-sm-text {
+            height: 25%;
+        }
+    }
 
 
     .news-sm-text {
