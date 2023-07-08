@@ -101,6 +101,15 @@
     }
 }
 
+.lastest-blog {
+    background: #0f0f0f;
+    border-bottom: 1px solid #ffffff50;
+
+    .news-show {
+        padding: 1rem 8rem;
+    }
+}
+
 @media (max-width: 1199px) {
 
     .homepage-tnail {
@@ -111,6 +120,12 @@
     }
     .hp-tnail-c-text p {
         font-size: 42px!important;
+    }
+
+    .lastest-blog {
+        .news-show {
+            padding: 1rem 0;
+        }
     }
 }
 
