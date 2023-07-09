@@ -64,6 +64,44 @@ body {
     }
 }
 
+.social-sm {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+    & ul {
+        display: flex;
+
+        & li {
+            margin-left: 0.5rem;
+
+            & ion-icon {
+                color: #fff;
+                font-size: 18px;
+                &:hover {
+                    cursor: pointer;
+                    color: #ffc220;
+                }
+            }
+        }
+    }
+}
+
+.share {
+    display: flex;
+    gap: 0.5rem;
+
+    & ion-icon {
+        color: #fff;
+        font-size: 36px;
+
+        &:hover {
+            cursor: pointer;
+            color: #ffc220;
+        }
+    }
+}
+
 section {
     overflow: hidden;
 }
@@ -78,6 +116,7 @@ header {
     position: absolute;
     width: 100%;
     background: linear-gradient(180deg, #00000050 0%, rgba(47,7,7,0) 50%);
+    z-index: 51;
 
     .menu-expand {
         display: none
@@ -742,6 +781,20 @@ header.sticky{
     /* ---------- trending end ---------- */
 
 
+
+    /* ---------- mightlike start ---------- */
+        .mightlike {
+            background: #0f0f0f;
+            border-bottom: 1px solid #ffffff50;
+
+            .news-show {
+                padding: 0 4rem;
+            }
+        }
+    /* ---------- mightlike end ---------- */
+
+
+
 /* ---------- OBJECTS END----------*/
 
 
@@ -800,6 +853,12 @@ header.sticky{
 }
 
 @media (max-width: 1199px) {
+
+    .mightlike {
+        .news-show {
+            padding: 0;
+        }
+    }
 
     header {
         padding: 16px 1rem;
