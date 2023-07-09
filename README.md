@@ -10,7 +10,7 @@ I get inspired from GamingDose and ChatchawanDew(from GitHub).
 :triangular_flag_on_post: This website has 6 pages:
 - home page :heavy_check_mark: <i>[finished]</i>
 - news page :heavy_check_mark: <i>[finished]</i>
-- blog page :orange_circle: <i>[working]</i>
+- blog page :heavy_check_mark: <i>[finished]</i>
 - games page :x: <i>[not start]</i>
 - contact us page :x: <i>[not start]</i>
 - support page :x: <i>[not start]</i>
