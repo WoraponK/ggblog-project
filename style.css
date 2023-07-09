@@ -12,18 +12,17 @@
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #ffffff50;
+    background: #e0e0e0;
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    border-radius: 99px;
-    background: #0071ce;
+    background: #00569c;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #00569c;
+    background: #008cff;
   }
 
 * {
@@ -557,6 +556,19 @@ header.sticky{
     /* ---------- videos start ---------- */
 
 
+    .vdos-show {
+        overflow-x: scroll;
+    }
+
+    .vdos-show-in {
+        width: fit-content;
+        padding-top: 2rem;
+        padding-bottom: 0.5rem;
+        gap: 1rem;
+        display: flex;
+    }
+
+
         .vdos-ctn {
             padding-left: 0.1rem;
             width: 226px;
@@ -660,6 +672,47 @@ header.sticky{
         }
     /* ---------- BackToTop end ---------- */
 
+    
+
+    /* ---------- trending start ---------- */
+        .b-top-trending {
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            background: #0071ce;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+
+            .title-md {
+                color: #fff;
+            }
+
+            .b-top-trending-in {
+                display: flex;
+                gap: 0.5rem;
+            }
+        }
+
+        .trending-ctn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0.5rem 1rem;
+            border: 3px solid #fff;
+            border-radius: 999px;
+
+            &:hover {
+                cursor: pointer;
+                background: #ffffff30;
+            }
+
+            & h5 {
+                color: #fff;
+                font-weight: 900;
+            }
+        }
+
+    /* ---------- trending end ---------- */
 
 
 /* ---------- OBJECTS END----------*/

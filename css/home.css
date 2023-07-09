@@ -81,18 +81,6 @@
             }
         }
     }
-    
-    .vdos-show {
-        overflow-x: scroll;
-    }
-
-    .vdos-show-in {
-        width: fit-content;
-        padding-top: 2rem;
-        padding-bottom: 0.5rem;
-        gap: 1rem;
-        display: flex;
-    }
 
     .wrapper {
         .wrapper {
