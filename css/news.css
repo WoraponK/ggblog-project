@@ -10,10 +10,68 @@
         .news-page-filter {
             background: #0071ce;
             height: fit-content;
+            padding: 1rem;
 
             & h2 {
                 color: #ffc220;
-                margin: 1rem;
+            }
+
+            .news-page-filter-in {
+                margin-top: 1rem;
+
+                .news-page-filter-in-option {
+
+                    .news-page-filter-in-option-order {
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    .news-page-filter-in-option-trending {
+                        margin-top: 2rem;
+
+                        & h3 {
+                            color: #fff;
+                        }
+
+                        .b-trending {
+                            padding-top: 1rem;
+                        }
+                    }
+                }
+
+
+                & form {
+                    height: 34px;
+                    width: 100%;
+                    background: #fff;
+                    display: flex;
+        
+                    & input[type="search"] {
+                        height: 100%;
+                        width: calc(100% - 34px);
+                        outline: none;
+                        border: none;
+                        padding-left: 0.5rem;
+                    }
+        
+                    & button {
+                        height: 100%;
+                        width: 34px;
+                        background: #fff;
+                        border: none;
+        
+                        
+                        &:hover {
+                            cursor: pointer;
+                            background: #fff;
+                        }
+        
+                        & ion-icon {
+                            font-size: 23px;
+                            color: #0f0f0f;
+                        }
+                    }
+                }
             }
         }
         

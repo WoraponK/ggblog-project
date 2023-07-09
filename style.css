@@ -481,6 +481,26 @@ header.sticky{
 
         }
     }
+
+    .option-btn {
+        width: 100%;
+        padding: 0.25rem 0;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        font-size: 16px;
+        font-weight: 700;
+        display: flex;
+        background: #0071ce;
+        border: 0;
+        border-bottom: 1px solid #fff;
+        color: #fff;
+
+        &:hover {
+            cursor: pointer;
+            background:#008cff;
+        }
+
+    }
     /* ---------- button end ----------*/
 
 
@@ -675,19 +695,20 @@ header.sticky{
     
 
     /* ---------- trending start ---------- */
-        .b-top-trending {
-            padding: 0.5rem 1rem;
+        .b-trending {
+            /* padding: 0.5rem 1rem; */
             border-radius: 8px;
             background: #0071ce;
             display: flex;
-            gap: 1rem;
+            gap: 0.5rem;
             align-items: center;
-
+            flex-wrap: wrap;
+            
             .title-md {
                 color: #fff;
             }
-
-            .b-top-trending-in {
+            
+            .b-trending-in {
                 display: flex;
                 gap: 0.5rem;
             }
@@ -697,13 +718,19 @@ header.sticky{
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 0.5rem 1rem;
-            border: 3px solid #fff;
+            padding: 0.4rem 1rem;
+            border: 2px solid #fff;
             border-radius: 999px;
 
             &:hover {
                 cursor: pointer;
-                background: #ffffff30;
+                background: #008cff;
+            }
+
+            & ion-icon {
+                color: #fff;
+                font-size: 18px;
+                margin-right: 0.5rem;
             }
 
             & h5 {
