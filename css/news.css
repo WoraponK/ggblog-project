@@ -77,7 +77,6 @@
         
         .news-page-show {
             padding-left: 2rem;
-            padding-top: 1rem;
         }
     }
 }
@@ -93,10 +92,12 @@
 
         .news-page-filter {
             margin-bottom: 1rem;
+
         }
 
         .news-page-show {
             padding-left: 0!important;
+            padding-top: 1rem;
         }
     }
 }
