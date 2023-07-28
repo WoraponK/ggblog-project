@@ -11,7 +11,7 @@ I get inspired from GamingDose and ChatchawanDew(from GitHub).
 - home page :heavy_check_mark: <i>[finished]</i>
 - news page :heavy_check_mark: <i>[finished]</i>
 - blog page :heavy_check_mark: <i>[finished]</i>
-- games page :x: <i>[not start]</i>
+- games page :orange_circle: <i>[working]</i>
 - contact us page :x: <i>[not start]</i>
 - support page :x: <i>[not start]</i>
 
